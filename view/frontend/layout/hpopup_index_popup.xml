@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd"> -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script src="Chetu_HPopup::js/popup.js" async="async"/>
+    </head>
+
+    <body>
+    <referenceContainer name="content">
+        <block class="Chetu\Hpopup\Block\Index" name="hpopup_index_hpopup" template="Chetu_HPopup::popup.phtml"/>
+    </referenceContainer>
+    </body>
+    
+</page>
